@@ -1,0 +1,243 @@
+2024-10-02 00:35:54 [restartedMain] INFO  : Starting Mini3Application using Java 17.0.10 with PID 26248 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3)
+2024-10-02 00:35:54 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 00:35:54 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 00:35:54 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 00:35:56 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 00:35:56 [restartedMain] INFO  : Finished Spring Data repository scanning in 137 ms. Found 1 JPA repository interface.
+2024-10-02 00:35:58 [restartedMain] INFO  : Tomcat initialized with port(s): 8083 (http)
+2024-10-02 00:35:58 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8083"]
+2024-10-02 00:35:58 [restartedMain] INFO  : Starting service [Tomcat]
+2024-10-02 00:35:58 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-10-02 00:35:58 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-10-02 00:35:58 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4593 ms
+2024-10-02 00:35:59 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 00:35:59 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 00:35:59 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 00:36:00 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 00:36:00 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 00:36:00 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59a7d767
+2024-10-02 00:36:00 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 00:36:01 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 00:36:01 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 00:36:03 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 00:36:03 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 00:36:07 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 00:36:09 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 00:36:09 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8083"]
+2024-10-02 00:36:09 [restartedMain] INFO  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-10-02 00:36:09 [restartedMain] INFO  : Started Mini3Application in 16.45 seconds (process running for 18.232)
+2024-10-02 00:36:58 [http-nio-8083-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02 00:36:58 [http-nio-8083-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 00:36:58 [http-nio-8083-exec-1] INFO  : Completed initialization in 0 ms
+2024-10-02 00:36:58 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:36:58 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: []
+2024-10-02 00:37:57 [http-nio-8083-exec-3] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:saveUser() Arguments: [User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678)]
+2024-10-02 00:38:02 [http-nio-8083-exec-3] INFO  : class com.mini3.service.UserManagementServiceImpl : saveUser() Response: true
+2024-10-02 00:39:01 [http-nio-8083-exec-5] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=Tejateju205101@gmail.com, tempPassword=WblkWd, newPassword=asdfghjkl, confirmPassword=asdfghjkl)]
+2024-10-02 00:39:01 [http-nio-8083-exec-5] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: false
+2024-10-02 00:39:47 [http-nio-8083-exec-6] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=Tejateju205101@gmail.com, tempPassword=WblkWd, newPassword=asdfghjkl, confirmPassword=asdfghjkl)]
+2024-10-02 00:39:47 [http-nio-8083-exec-6] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: false
+2024-10-02 00:42:26 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=Tejateju205101@gmail.com, tempPassword=WblkWd, newPassword=asdfghjkl, confirmPassword=asdfghjkl)]
+2024-10-02 00:42:26 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: false
+2024-10-02 00:43:14 [http-nio-8083-exec-6] INFO  : Init duration for springdoc-openapi is: 542 ms
+2024-10-02 00:45:17 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=Tejateju205101@gmail.com, tempPassword=WbIkWd, newPassword=asdfghjkl, confirmPassword=asdfghjkl)]
+2024-10-02 00:45:17 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: true
+2024-10-02 00:45:32 [http-nio-8083-exec-5] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:login() Arguments: [Login(email=Tejateju205101@gmail.com, password=asdfghjkl)]
+2024-10-02 00:45:32 [http-nio-8083-exec-5] INFO  : class com.mini3.service.UserManagementServiceImpl : login() Response: SUCCESS
+2024-10-02 00:45:39 [http-nio-8083-exec-4] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:39 [http-nio-8083-exec-4] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:44 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, In-Active]
+2024-10-02 00:45:44 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:44 [http-nio-8083-exec-10] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:45 [http-nio-8083-exec-10] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:45 [http-nio-8083-exec-9] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, Active]
+2024-10-02 00:45:45 [http-nio-8083-exec-9] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:45 [http-nio-8083-exec-2] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:45 [http-nio-8083-exec-2] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:46 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, In-Active]
+2024-10-02 00:45:46 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:46 [http-nio-8083-exec-3] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:46 [http-nio-8083-exec-3] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:47 [http-nio-8083-exec-5] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, Active]
+2024-10-02 00:45:47 [http-nio-8083-exec-5] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:47 [http-nio-8083-exec-4] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:47 [http-nio-8083-exec-4] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:48 [http-nio-8083-exec-6] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, In-Active]
+2024-10-02 00:45:48 [http-nio-8083-exec-6] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:48 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:48 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:49 [http-nio-8083-exec-10] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, Active]
+2024-10-02 00:45:49 [http-nio-8083-exec-10] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:49 [http-nio-8083-exec-8] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:49 [http-nio-8083-exec-8] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:49 [http-nio-8083-exec-9] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, In-Active]
+2024-10-02 00:45:49 [http-nio-8083-exec-9] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:49 [http-nio-8083-exec-2] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:49 [http-nio-8083-exec-2] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:50 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, Active]
+2024-10-02 00:45:50 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:50 [http-nio-8083-exec-3] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:50 [http-nio-8083-exec-3] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:45:52 [http-nio-8083-exec-5] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:changeActiveStatus() Arguments: [1, In-Active]
+2024-10-02 00:45:52 [http-nio-8083-exec-5] INFO  : class com.mini3.service.UserManagementServiceImpl : changeActiveStatus() Response: true
+2024-10-02 00:45:52 [http-nio-8083-exec-4] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:45:52 [http-nio-8083-exec-4] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:46:09 [http-nio-8083-exec-6] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:login() Arguments: [Login(email=Tejateju205101@gmail.com, password=asdfghjkl)]
+2024-10-02 00:46:09 [http-nio-8083-exec-6] INFO  : class com.mini3.service.UserManagementServiceImpl : login() Response: ACOUNT NOT ACTIVEATED
+2024-10-02 00:46:11 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:46:11 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:46:19 [http-nio-8083-exec-10] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getUserById() Arguments: [1]
+2024-10-02 00:46:19 [http-nio-8083-exec-10] INFO  : class com.mini3.service.UserManagementServiceImpl : getUserById() Response: User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345612345678)
+2024-10-02 00:46:50 [http-nio-8083-exec-9] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:updateUserById() Arguments: [1, User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)]
+2024-10-02 00:46:50 [http-nio-8083-exec-9] INFO  : class com.mini3.service.UserManagementServiceImpl : updateUserById() Response: User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)
+2024-10-02 00:46:50 [http-nio-8083-exec-2] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:46:50 [http-nio-8083-exec-2] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:46:52 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getUserById() Arguments: [1]
+2024-10-02 00:46:52 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : getUserById() Response: User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)
+2024-10-02 00:46:53 [http-nio-8083-exec-3] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:updateUserById() Arguments: [1, User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)]
+2024-10-02 00:46:53 [http-nio-8083-exec-3] INFO  : class com.mini3.service.UserManagementServiceImpl : updateUserById() Response: User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)
+2024-10-02 00:46:53 [http-nio-8083-exec-5] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:46:53 [http-nio-8083-exec-5] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 00:47:00 [http-nio-8083-exec-4] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getUserById() Arguments: [1]
+2024-10-02 00:47:00 [http-nio-8083-exec-4] INFO  : class com.mini3.service.UserManagementServiceImpl : getUserById() Response: User(fullName=Teja, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)
+2024-10-02 00:47:07 [http-nio-8083-exec-6] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:updateUserById() Arguments: [1, User(fullName=harsha, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)]
+2024-10-02 00:47:08 [http-nio-8083-exec-6] INFO  : class com.mini3.service.UserManagementServiceImpl : updateUserById() Response: User(fullName=harsha, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345)
+2024-10-02 00:47:08 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 00:47:08 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=harsha, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 01:35:30 [File Watcher] INFO  : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
+2024-10-02 01:35:30 [Thread-1] INFO  : Pausing ProtocolHandler ["http-nio-8083"]
+2024-10-02 01:35:30 [Thread-1] INFO  : Stopping service [Tomcat]
+2024-10-02 01:35:30 [Thread-1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-02 01:35:30 [Thread-1] INFO  : Stopping ProtocolHandler ["http-nio-8083"]
+2024-10-02 01:35:30 [Thread-1] INFO  : Destroying ProtocolHandler ["http-nio-8083"]
+2024-10-02 01:35:30 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:35:30 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 01:35:30 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2024-10-02 01:35:40 [restartedMain] INFO  : Starting Mini3Application using Java 17.0.10 with PID 26248 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3)
+2024-10-02 01:35:40 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 01:35:42 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 01:35:42 [restartedMain] INFO  : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-10-02 01:35:42 [restartedMain] INFO  : Tomcat initialized with port(s): 8083 (http)
+2024-10-02 01:35:42 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8083"]
+2024-10-02 01:35:42 [restartedMain] INFO  : Starting service [Tomcat]
+2024-10-02 01:35:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-10-02 01:35:42 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-10-02 01:35:42 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1813 ms
+2024-10-02 01:35:43 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 01:35:43 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 01:35:43 [restartedMain] INFO  : HikariPool-2 - Starting...
+2024-10-02 01:35:43 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@541d05e4
+2024-10-02 01:35:43 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2024-10-02 01:35:43 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 01:35:43 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 01:35:43 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 01:35:43 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:35:43 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 01:35:44 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 01:35:44 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8083"]
+2024-10-02 01:35:44 [restartedMain] INFO  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-10-02 01:35:44 [restartedMain] INFO  : Started Mini3Application in 3.709 seconds (process running for 3593.615)
+2024-10-02 01:35:44 [restartedMain] INFO  : Condition evaluation unchanged
+2024-10-02 01:36:33 [http-nio-8083-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02 01:36:33 [http-nio-8083-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 01:36:33 [http-nio-8083-exec-1] INFO  : Completed initialization in 2 ms
+2024-10-02 01:36:33 [http-nio-8083-exec-1] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 01:36:33 [http-nio-8083-exec-1] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: [UserMaster(userId=1, fullName=harsha, email=Tejateju205101@gmail.com, mobielNumber=7894561237, gender=Male, dob=2024-10-10, ssn=12345678902345, password=asdfghjkl, activeStatus=In-Active, createdDate=2024-10-02, updatedDate=2024-10-02, createdBy=null, updatedBy=null)]
+2024-10-02 01:39:11 [http-nio-8083-exec-4] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:saveUser() Arguments: [User(fullName=mani, email=tejayuva20@gmail.com, mobielNumber=9494013905, gender=Male, dob=1999-05-13, ssn=1245678)]
+2024-10-02 01:39:15 [http-nio-8083-exec-4] INFO  : class com.mini3.service.UserManagementServiceImpl : saveUser() Response: true
+2024-10-02 01:40:35 [http-nio-8083-exec-7] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=tejayuva20@gmail.com, tempPassword=qccLmf, newPassword=mani@1234, confirmPassword=Mani@1234)]
+2024-10-02 01:40:35 [http-nio-8083-exec-7] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: true
+2024-10-02 01:40:44 [http-nio-8083-exec-9] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:login() Arguments: [Login(email=tejayuva20@gmail.com, password=Mani@1234)]
+2024-10-02 01:40:44 [http-nio-8083-exec-9] INFO  : class com.mini3.service.UserManagementServiceImpl : login() Response: SUCCESS
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8083"]
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8083"]
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-8083"]
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : HikariPool-2 - Shutdown initiated...
+2024-10-02 02:21:02 [RMI TCP Connection(136)-127.0.0.1] INFO  : HikariPool-2 - Shutdown completed.
+2024-10-02 11:46:37 [restartedMain] INFO  : Starting Mini3Application using Java 17.0.10 with PID 29888 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3)
+2024-10-02 11:46:37 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 11:46:37 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 11:46:37 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 11:46:39 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 11:46:40 [restartedMain] INFO  : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interface.
+2024-10-02 11:46:42 [restartedMain] INFO  : Tomcat initialized with port(s): 8083 (http)
+2024-10-02 11:46:42 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:46:42 [restartedMain] INFO  : Starting service [Tomcat]
+2024-10-02 11:46:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-10-02 11:46:42 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-10-02 11:46:42 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4476 ms
+2024-10-02 11:46:42 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 11:46:42 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 11:46:42 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 11:46:43 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 11:46:43 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 11:46:44 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3926d892
+2024-10-02 11:46:44 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 11:46:44 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 11:46:44 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 11:46:46 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 11:46:46 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:46:48 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 11:46:49 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 11:46:49 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:46:49 [restartedMain] INFO  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-10-02 11:46:49 [restartedMain] INFO  : Started Mini3Application in 13.565 seconds (process running for 15.521)
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 11:47:11 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2024-10-02 11:49:27 [restartedMain] INFO  : Starting Mini3Application using Java 17.0.10 with PID 29680 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-3)
+2024-10-02 11:49:27 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 11:49:27 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 11:49:27 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 11:49:29 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 11:49:29 [restartedMain] INFO  : Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interface.
+2024-10-02 11:49:31 [restartedMain] INFO  : Tomcat initialized with port(s): 8083 (http)
+2024-10-02 11:49:31 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:49:31 [restartedMain] INFO  : Starting service [Tomcat]
+2024-10-02 11:49:31 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-10-02 11:49:31 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-10-02 11:49:31 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4204 ms
+2024-10-02 11:49:32 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 11:49:32 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 11:49:32 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 11:49:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 11:49:33 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 11:49:33 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dd69a9f
+2024-10-02 11:49:33 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 11:49:34 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 11:49:34 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 11:49:36 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 11:49:36 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:49:37 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 11:49:39 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 11:49:39 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8083"]
+2024-10-02 11:49:39 [restartedMain] INFO  : Tomcat started on port(s): 8083 (http) with context path ''
+2024-10-02 11:49:39 [restartedMain] INFO  : Started Mini3Application in 13.029 seconds (process running for 14.764)
+2024-10-02 12:08:10 [http-nio-8083-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02 12:08:10 [http-nio-8083-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 12:08:10 [http-nio-8083-exec-2] INFO  : Completed initialization in 0 ms
+2024-10-02 12:08:10 [http-nio-8083-exec-2] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:getAllUsers() Arguments: []
+2024-10-02 12:08:11 [http-nio-8083-exec-2] INFO  : class com.mini3.service.UserManagementServiceImpl : getAllUsers() Response: []
+2024-10-02 13:20:40 [http-nio-8083-exec-1] INFO  : Init duration for springdoc-openapi is: 1005 ms
+2024-10-02 13:22:03 [http-nio-8083-exec-9] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:saveUser() Arguments: [User(fullName=yugandharpilla, email=yugandharpilla@gmail.com, mobielNumber=12345, gender=Male, dob=2024-10-03, ssn=12345)]
+2024-10-02 13:22:09 [http-nio-8083-exec-9] INFO  : class com.mini3.service.UserManagementServiceImpl : saveUser() Response: true
+2024-10-02 13:23:29 [http-nio-8083-exec-2] INFO  : Method invoked: class com.mini3.service.UserManagementServiceImpl:activeUserAccount() Arguments: [ActivateAccount(email=yugandharpilla@gmail.com, tempPassword=HuQdm3, newPassword=1234, confirmPassword=1234)]
+2024-10-02 13:23:30 [http-nio-8083-exec-2] INFO  : class com.mini3.service.UserManagementServiceImpl : activeUserAccount() Response: true
+2024-10-02 16:58:34 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s657ms12µs400ns).
+2024-10-02 18:29:25 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m54s226ms174µs200ns).
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8083"]
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8083"]
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 18:29:50 [RMI TCP Connection(140)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

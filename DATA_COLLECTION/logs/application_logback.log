@@ -1,0 +1,102 @@
+2024-10-02 01:09:15 [restartedMain] INFO  : Starting Mini5Application using Java 17.0.10 with PID 25028 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5)
+2024-10-02 01:09:15 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 01:09:15 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 01:09:15 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 01:09:18 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 01:09:18 [restartedMain] INFO  : Finished Spring Data repository scanning in 192 ms. Found 6 JPA repository interfaces.
+2024-10-02 01:09:20 [restartedMain] INFO  : Tomcat initialized with port 8085 (http)
+2024-10-02 01:09:20 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4961 ms
+2024-10-02 01:09:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 01:09:21 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-02 01:09:21 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-10-02 01:09:22 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 01:09:22 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 01:09:22 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4813b017
+2024-10-02 01:09:22 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 01:09:22 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 01:09:22 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 01:09:25 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 01:09:25 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:09:27 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 01:09:29 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 01:09:29 [restartedMain] INFO  : Tomcat started on port 8085 (http) with context path ''
+2024-10-02 01:09:29 [restartedMain] INFO  : Started Mini5Application in 15.529 seconds (process running for 17.555)
+2024-10-02 01:10:15 [http-nio-8085-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 01:10:15 [http-nio-8085-exec-1] INFO  : Completed initialization in 5 ms
+2024-10-02 01:10:17 [http-nio-8085-exec-9] INFO  : Init duration for springdoc-openapi is: 780 ms
+2024-10-02 01:13:36 [http-nio-8085-exec-6] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:loadCaseNum() Arguments: [1234567890]
+2024-10-02 01:13:36 [http-nio-8085-exec-6] INFO  : class com.mini5.service.DataCollectionServiceImpl : loadCaseNum() Response: 0
+2024-10-02 01:13:36 [http-nio-8085-exec-6] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:getPlans() Arguments: []
+2024-10-02 01:13:36 [http-nio-8085-exec-6] INFO  : class com.mini5.service.DataCollectionServiceImpl : getPlans() Response: {}
+2024-10-02 01:15:55 [http-nio-8085-exec-7] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:loadCaseNum() Arguments: [1234567890]
+2024-10-02 01:15:55 [http-nio-8085-exec-7] INFO  : class com.mini5.service.DataCollectionServiceImpl : loadCaseNum() Response: 0
+2024-10-02 01:15:55 [http-nio-8085-exec-7] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:getPlans() Arguments: []
+2024-10-02 01:15:55 [http-nio-8085-exec-7] INFO  : class com.mini5.service.DataCollectionServiceImpl : getPlans() Response: {}
+2024-10-02 01:16:07 [http-nio-8085-exec-9] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:loadCaseNum() Arguments: [1234567891]
+2024-10-02 01:16:07 [http-nio-8085-exec-9] INFO  : class com.mini5.service.DataCollectionServiceImpl : loadCaseNum() Response: 0
+2024-10-02 01:16:07 [http-nio-8085-exec-9] INFO  : Method invoked: class com.mini5.service.DataCollectionServiceImpl:getPlans() Arguments: []
+2024-10-02 01:16:07 [http-nio-8085-exec-9] INFO  : class com.mini5.service.DataCollectionServiceImpl : getPlans() Response: {}
+2024-10-02 01:47:20 [File Watcher] INFO  : Restarting due to 35 class path changes (0 additions, 35 deletions, 0 modifications)
+2024-10-02 01:47:20 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:47:20 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 01:47:20 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2024-10-02 01:47:31 [restartedMain] INFO  : Starting Mini5Application using Java 17.0.10 with PID 25028 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5)
+2024-10-02 01:47:31 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 01:47:32 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 01:47:32 [restartedMain] INFO  : Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+2024-10-02 01:47:33 [restartedMain] INFO  : Tomcat initialized with port 8085 (http)
+2024-10-02 01:47:33 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1805 ms
+2024-10-02 01:47:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 01:47:33 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-10-02 01:47:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 01:47:33 [restartedMain] INFO  : HikariPool-2 - Starting...
+2024-10-02 01:47:33 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e3d216a
+2024-10-02 01:47:33 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2024-10-02 01:47:33 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 01:47:33 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 01:47:34 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 01:47:34 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:47:34 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 01:47:36 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 01:47:36 [restartedMain] INFO  : Tomcat started on port 8085 (http) with context path ''
+2024-10-02 01:47:36 [restartedMain] INFO  : Started Mini5Application in 4.635 seconds (process running for 2304.062)
+2024-10-02 01:47:36 [restartedMain] INFO  : Condition evaluation unchanged
+2024-10-02 01:51:29 [http-nio-8085-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 01:51:29 [http-nio-8085-exec-1] INFO  : Completed initialization in 6 ms
+2024-10-02 01:51:30 [http-nio-8085-exec-7] INFO  : Init duration for springdoc-openapi is: 245 ms
+2024-10-02 02:20:53 [RMI TCP Connection(89)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 02:20:53 [RMI TCP Connection(89)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 02:20:53 [RMI TCP Connection(89)-127.0.0.1] INFO  : HikariPool-2 - Shutdown initiated...
+2024-10-02 02:20:53 [RMI TCP Connection(89)-127.0.0.1] INFO  : HikariPool-2 - Shutdown completed.
+2024-10-02 11:50:25 [restartedMain] INFO  : Starting Mini5Application using Java 17.0.10 with PID 25476 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini5)
+2024-10-02 11:50:25 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 11:50:25 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 11:50:25 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 11:50:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 11:50:27 [restartedMain] INFO  : Finished Spring Data repository scanning in 193 ms. Found 6 JPA repository interfaces.
+2024-10-02 11:50:30 [restartedMain] INFO  : Tomcat initialized with port 8085 (http)
+2024-10-02 11:50:30 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 5689 ms
+2024-10-02 11:50:31 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 11:50:31 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-02 11:50:31 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-10-02 11:50:32 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 11:50:32 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 11:50:33 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f10f5c
+2024-10-02 11:50:33 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 11:50:33 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 11:50:33 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 11:50:35 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 11:50:36 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:50:37 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 11:50:39 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 11:50:39 [restartedMain] INFO  : Tomcat started on port 8085 (http) with context path ''
+2024-10-02 11:50:39 [restartedMain] INFO  : Started Mini5Application in 15.764 seconds (process running for 17.672)
+2024-10-02 13:37:39 [http-nio-8085-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 13:37:40 [http-nio-8085-exec-1] INFO  : Completed initialization in 52 ms
+2024-10-02 13:37:42 [http-nio-8085-exec-9] INFO  : Init duration for springdoc-openapi is: 914 ms
+2024-10-02 16:58:33 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s664ms104µs499ns).
+2024-10-02 18:29:24 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m54s222ms158µs100ns).
+2024-10-02 18:29:28 [RMI TCP Connection(162)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 18:29:28 [RMI TCP Connection(162)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 18:29:28 [RMI TCP Connection(162)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 18:29:28 [RMI TCP Connection(162)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

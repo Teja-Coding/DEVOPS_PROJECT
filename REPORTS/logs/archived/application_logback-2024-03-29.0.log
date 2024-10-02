@@ -1,0 +1,166 @@
+2024-03-29 14:30:21 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 67768 (D:\PersonalSpring\FinalProject\mini-2\target\classes started by Chandra Sekhar in D:\PersonalSpring\FinalProject\mini-2)
+2024-03-29 14:30:21 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-03-29 14:30:21 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-29 14:30:21 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-29 14:30:22 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-29 14:30:22 [restartedMain] INFO  : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-03-29 14:30:23 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-03-29 14:30:23 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1859 ms
+2024-03-29 14:30:23 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-29 14:30:23 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-03-29 14:30:23 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-03-29 14:30:24 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-29 14:30:24 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-03-29 14:30:24 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cae7b9f
+2024-03-29 14:30:24 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-03-29 14:30:24 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-29 14:30:24 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-29 14:30:25 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-29 14:30:25 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 14:30:25 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-29 14:30:26 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-29 14:30:27 [restartedMain] WARN  : Unable to start LiveReload server
+2024-03-29 14:30:27 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-03-29 14:30:27 [restartedMain] INFO  : Started Mini2Application in 6.204 seconds (process running for 8.162)
+2024-03-29 15:50:04 [http-nio-8082-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-03-29 15:50:04 [http-nio-8082-exec-1] INFO  : Completed initialization in 41 ms
+2024-03-29 15:50:05 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:50:05 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:50:05 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:50:05 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:51:27 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:51:27 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:51:27 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:51:27 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:51:36 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:51:36 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:51:36 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:51:36 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:52:37 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:52:37 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:52:37 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:52:37 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:53:42 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 15:53:42 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 15:53:58 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 15:53:58 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 15:54:50 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:54:50 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:54:50 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:54:50 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:55:16 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:55:16 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:55:16 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:55:16 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:55:46 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:55:46 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:55:46 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:55:46 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:55:47 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generateExcel() Arguments: [org.apache.catalina.connector.ResponseFacade@41c3dc74]
+2024-03-29 15:55:48 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : generateExcel() Response: null
+2024-03-29 15:55:56 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:55:56 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:55:56 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:55:56 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:56:00 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:56:00 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:56:00 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:56:00 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:56:01 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@7641358d]
+2024-03-29 15:56:01 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-03-29 15:56:24 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:56:24 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:56:24 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:56:24 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:56:26 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 15:56:26 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 15:56:28 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@25ecf534]
+2024-03-29 15:56:28 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-03-29 15:56:53 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@1474682e]
+2024-03-29 15:56:53 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-03-29 15:58:04 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 15:58:04 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 15:58:04 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 15:58:04 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 15:58:06 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@38eaa2c8]
+2024-03-29 15:58:06 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-03-29 16:00:42 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 16:00:42 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 16:00:42 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 16:00:42 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 16:00:54 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 16:00:54 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 16:00:54 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 16:00:54 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 16:00:56 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generateExcel() Arguments: [org.apache.catalina.connector.ResponseFacade@7c2bf5f6]
+2024-03-29 16:00:56 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : generateExcel() Response: null
+2024-03-29 16:04:12 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 16:04:12 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 16:04:12 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 16:04:12 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 16:04:15 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 16:04:15 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 16:04:19 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 16:04:20 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-03-29 16:04:25 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Approved, planStartDate=null, planEndDate=null)]
+2024-03-29 16:04:25 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-03-29 16:04:28 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Closed, planStartDate=null, planEndDate=null)]
+2024-03-29 16:04:28 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-03-29 16:04:37 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=Closed, planStartDate=null, planEndDate=null)]
+2024-03-29 16:04:37 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 16:04:47 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 16:04:47 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 16:04:47 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 16:04:47 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 16:04:53 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 16:04:53 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 16:04:53 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 16:04:53 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 16:23:57 [RMI TCP Connection(117)-127.0.0.1] INFO  : Application shutdown requested.
+2024-03-29 16:23:57 [RMI TCP Connection(117)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 16:23:57 [RMI TCP Connection(117)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-03-29 16:23:57 [RMI TCP Connection(117)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2024-03-29 17:44:57 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 64580 (D:\PersonalSpring\FinalProject\mini-2\target\classes started by Chandra Sekhar in D:\PersonalSpring\FinalProject\mini-2)
+2024-03-29 17:44:57 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-03-29 17:44:57 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-29 17:44:57 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-29 17:44:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-29 17:44:58 [restartedMain] INFO  : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2024-03-29 17:44:58 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-03-29 17:44:58 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1783 ms
+2024-03-29 17:44:59 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-29 17:44:59 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-03-29 17:44:59 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-03-29 17:44:59 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-29 17:44:59 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-03-29 17:45:00 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b782bf9
+2024-03-29 17:45:00 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-03-29 17:45:00 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-29 17:45:00 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-29 17:45:01 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-29 17:45:02 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 17:45:02 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-29 17:45:02 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-29 17:45:03 [restartedMain] WARN  : Unable to start LiveReload server
+2024-03-29 17:45:03 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-03-29 17:45:03 [restartedMain] INFO  : Started Mini2Application in 7.139 seconds (process running for 8.104)
+2024-03-29 17:48:23 [http-nio-8082-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-03-29 17:48:23 [http-nio-8082-exec-1] INFO  : Completed initialization in 2 ms
+2024-03-29 17:48:23 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-03-29 17:48:23 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-03-29 17:48:23 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-03-29 17:48:23 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-03-29 17:48:40 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 17:48:40 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 17:48:48 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 17:48:48 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-03-29 17:48:53 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-03-29 17:48:53 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-03-29 17:49:05 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generateExcel() Arguments: [org.apache.catalina.connector.ResponseFacade@4ed23527]
+2024-03-29 17:49:06 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : generateExcel() Response: null
+2024-03-29 17:49:12 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@613ccce8]
+2024-03-29 17:49:12 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-03-29 17:52:12 [RMI TCP Connection(12)-127.0.0.1] INFO  : Application shutdown requested.
+2024-03-29 17:52:12 [RMI TCP Connection(12)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-29 17:52:12 [RMI TCP Connection(12)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-03-29 17:52:12 [RMI TCP Connection(12)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

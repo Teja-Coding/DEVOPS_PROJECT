@@ -1,0 +1,95 @@
+2024-04-01 23:19:23 [restartedMain] INFO  : Starting Mini4Application using Java 17.0.10 with PID 69016 (D:\PersonalSpring\FinalProject\mini-4\target\classes started by Chandra Sekhar in D:\PersonalSpring\FinalProject\mini-4)
+2024-04-01 23:19:23 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-04-01 23:19:23 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 23:19:23 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 23:19:24 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 23:19:25 [restartedMain] INFO  : Finished Spring Data repository scanning in 189 ms. Found 1 JPA repository interface.
+2024-04-01 23:19:26 [restartedMain] INFO  : Tomcat initialized with port 8084 (http)
+2024-04-01 23:19:26 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:19:26 [restartedMain] INFO  : Starting service [Tomcat]
+2024-04-01 23:19:26 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 23:19:26 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-04-01 23:19:26 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2513 ms
+2024-04-01 23:19:26 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 23:19:26 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 23:19:26 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-04-01 23:19:27 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 23:19:27 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-04-01 23:19:27 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@565bf51a
+2024-04-01 23:19:27 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-04-01 23:19:27 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-01 23:19:27 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-04-01 23:19:29 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 23:19:29 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 23:19:30 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 23:19:32 [restartedMain] WARN  : Unable to start LiveReload server
+2024-04-01 23:19:32 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:19:32 [restartedMain] INFO  : Tomcat started on port 8084 (http) with context path ''
+2024-04-01 23:19:32 [restartedMain] INFO  : Started Mini4Application in 9.442 seconds (process running for 11.085)
+2024-04-01 23:19:43 [http-nio-8084-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01 23:19:43 [http-nio-8084-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-04-01 23:19:43 [http-nio-8084-exec-1] INFO  : Completed initialization in 3 ms
+2024-04-01 23:19:43 [http-nio-8084-exec-1] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:deleteCitizen() Arguments: [2]
+2024-04-01 23:19:43 [http-nio-8084-exec-1] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : deleteCitizen() Response: true
+2024-04-01 23:20:05 [http-nio-8084-exec-3] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:createApplication() Arguments: [CitizenApplication(appId=null, fullName=Teja, email=Teja@gmail.com, phoneNumber=987654321, gender=Male, ssn=123231, dob=null)]
+2024-04-01 23:20:07 [http-nio-8084-exec-3] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : createApplication() Response: 3
+2024-04-01 23:20:13 [http-nio-8084-exec-4] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:getAllApplications() Arguments: []
+2024-04-01 23:20:13 [http-nio-8084-exec-4] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : getAllApplications() Response: [CitizenAppEntity(appId=3, fullName=Teja, email=Teja@gmail.com, phoneNumber=987654321, gender=Male, ssn=123231, dob=null, stateName=null, createdDate=2024-04-01, updatDate=null, createdBy=null, updatedBy=null)]
+2024-04-01 23:20:30 [http-nio-8084-exec-5] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:deleteCitizen() Arguments: [3]
+2024-04-01 23:20:30 [http-nio-8084-exec-5] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : deleteCitizen() Response: true
+2024-04-01 23:21:55 [http-nio-8084-exec-8] WARN  : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10/02/2000": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10/02/2000' could not be parsed at index 0]
+2024-04-01 23:22:18 [http-nio-8084-exec-10] WARN  : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-02-2000": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-02-2000' could not be parsed at index 0]
+2024-04-01 23:24:20 [http-nio-8084-exec-3] INFO  : Init duration for springdoc-openapi is: 505 ms
+2024-04-01 23:25:09 [RMI TCP Connection(9)-127.0.0.1] INFO  : Application shutdown requested.
+2024-04-01 23:25:09 [RMI TCP Connection(9)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:25:09 [RMI TCP Connection(9)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 23:25:09 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-04-01 23:25:09 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2024-04-01 23:27:50 [restartedMain] INFO  : Starting Mini4Application using Java 17.0.10 with PID 103696 (D:\PersonalSpring\FinalProject\mini-4\target\classes started by Chandra Sekhar in D:\PersonalSpring\FinalProject\mini-4)
+2024-04-01 23:27:50 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-04-01 23:27:50 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 23:27:50 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 23:27:51 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 23:27:51 [restartedMain] INFO  : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2024-04-01 23:27:52 [restartedMain] INFO  : Tomcat initialized with port 8084 (http)
+2024-04-01 23:27:52 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:27:52 [restartedMain] INFO  : Starting service [Tomcat]
+2024-04-01 23:27:52 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 23:27:52 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-04-01 23:27:52 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2128 ms
+2024-04-01 23:27:52 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 23:27:52 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 23:27:52 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2024-04-01 23:27:53 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 23:27:53 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-04-01 23:27:53 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a0e054
+2024-04-01 23:27:53 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-04-01 23:27:53 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-01 23:27:53 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-04-01 23:27:54 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 23:27:54 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 23:27:55 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 23:27:55 [restartedMain] WARN  : Unable to start LiveReload server
+2024-04-01 23:27:55 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:27:55 [restartedMain] INFO  : Tomcat started on port 8084 (http) with context path ''
+2024-04-01 23:27:55 [restartedMain] INFO  : Started Mini4Application in 6.274 seconds (process running for 7.303)
+2024-04-01 23:29:32 [http-nio-8084-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01 23:29:32 [http-nio-8084-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-04-01 23:29:32 [http-nio-8084-exec-2] INFO  : Completed initialization in 2 ms
+2024-04-01 23:29:33 [http-nio-8084-exec-2] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:createApplication() Arguments: [CitizenApplication(appId=null, fullName=Teja, email=Teja@gmail.com, phoneNumber=987654321, gender=Male, ssn=123231, dob=2000-03-10)]
+2024-04-01 23:29:34 [http-nio-8084-exec-2] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : createApplication() Response: 1
+2024-04-01 23:29:42 [http-nio-8084-exec-4] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:getAllApplications() Arguments: []
+2024-04-01 23:29:42 [http-nio-8084-exec-4] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : getAllApplications() Response: [CitizenAppEntity(appId=1, fullName=Teja, email=Teja@gmail.com, phoneNumber=987654321, gender=Male, ssn=123231, dob=2000-03-10, stateName=null, createdDate=2024-04-01, updatDate=null, createdBy=null, updatedBy=null)]
+2024-04-01 23:29:52 [http-nio-8084-exec-3] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:getACitizen() Arguments: [1]
+2024-04-01 23:29:52 [http-nio-8084-exec-3] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : getACitizen() Response: CitizenApplication(appId=1, fullName=Teja, email=Teja@gmail.com, phoneNumber=987654321, gender=Male, ssn=123231, dob=2000-03-10)
+2024-04-01 23:30:48 [http-nio-8084-exec-5] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:updateCitizen() Arguments: [1, CitizenApplication(appId=null, fullName=Harsha, email=Harsha@gmail.com, phoneNumber=987665785, gender=Male, ssn=123231, dob=2000-03-15)]
+2024-04-01 23:30:48 [http-nio-8084-exec-5] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : updateCitizen() Response: CitizenAppEntity(appId=1, fullName=Harsha, email=Harsha@gmail.com, phoneNumber=987665785, gender=Male, ssn=123231, dob=2000-03-15, stateName=null, createdDate=2024-04-01, updatDate=2024-04-01, createdBy=null, updatedBy=null)
+2024-04-01 23:31:13 [http-nio-8084-exec-6] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:deleteCitizen() Arguments: [1]
+2024-04-01 23:31:13 [http-nio-8084-exec-6] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : deleteCitizen() Response: true
+2024-04-01 23:31:16 [http-nio-8084-exec-7] INFO  : Method invoked: class com.min4.service.ApplicationRegistrationServiceImpl:deleteCitizen() Arguments: [1]
+2024-04-01 23:31:16 [http-nio-8084-exec-7] INFO  : class com.min4.service.ApplicationRegistrationServiceImpl : deleteCitizen() Response: false
+2024-04-01 23:31:30 [RMI TCP Connection(8)-127.0.0.1] INFO  : Application shutdown requested.
+2024-04-01 23:31:30 [RMI TCP Connection(8)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8084"]
+2024-04-01 23:31:30 [RMI TCP Connection(8)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 23:31:30 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-04-01 23:31:30 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

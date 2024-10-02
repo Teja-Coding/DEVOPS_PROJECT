@@ -1,0 +1,42 @@
+2024-03-26 13:56:54 [restartedMain] INFO  : Starting Mini3Application using Java 17.0.10 with PID 22784 (D:\PersonalSpring\FinalProject\mini-3\target\classes started by Chandra Sekhar in D:\PersonalSpring\FinalProject\mini-3)
+2024-03-26 13:56:54 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-03-26 13:56:54 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-26 13:56:54 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-26 13:56:55 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-26 13:56:55 [restartedMain] INFO  : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-03-26 13:56:56 [restartedMain] INFO  : Tomcat initialized with port(s): 8080 (http)
+2024-03-26 13:56:56 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-26 13:56:56 [restartedMain] INFO  : Starting service [Tomcat]
+2024-03-26 13:56:56 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-26 13:56:56 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2024-03-26 13:56:56 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2142 ms
+2024-03-26 13:56:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-26 13:56:56 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-03-26 13:56:56 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-03-26 13:56:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-26 13:56:56 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-03-26 13:56:57 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e11c613
+2024-03-26 13:56:57 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-03-26 13:56:57 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-26 13:56:57 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-26 13:56:58 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-26 13:56:58 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-26 13:56:58 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-26 13:56:59 [restartedMain] INFO  : LiveReload server is running on port 35729
+2024-03-26 13:57:00 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-26 13:57:00 [restartedMain] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-26 13:57:00 [restartedMain] INFO  : Started Mini3Application in 7.241 seconds (process running for 10.377)
+2024-03-26 13:57:26 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-26 13:57:26 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-03-26 13:57:26 [http-nio-8080-exec-1] INFO  : Completed initialization in 2 ms
+2024-03-26 13:57:27 [http-nio-8080-exec-4] INFO  : Init duration for springdoc-openapi is: 244 ms
+2024-03-26 14:36:13 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m15s780ms327µs600ns).
+2024-03-26 19:07:12 [RMI TCP Connection(293)-127.0.0.1] INFO  : Application shutdown requested.
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8080"]
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-8080"]
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-03-26 19:07:13 [RMI TCP Connection(293)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

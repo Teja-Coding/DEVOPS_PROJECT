@@ -1,0 +1,189 @@
+2024-10-02 00:30:55 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 10536 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2)
+2024-10-02 00:30:55 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 00:30:55 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 00:30:55 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 00:30:57 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 00:30:57 [restartedMain] INFO  : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2024-10-02 00:30:59 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-10-02 00:30:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4527 ms
+2024-10-02 00:31:00 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 00:31:00 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 00:31:00 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 00:31:01 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 00:31:01 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 00:31:01 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@450b3c7c
+2024-10-02 00:31:01 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 00:31:02 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 00:31:02 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 00:31:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 00:31:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 00:31:05 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-02 00:31:06 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 00:31:08 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 00:31:08 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-02 00:31:08 [restartedMain] INFO  : Started Mini2Application in 14.667 seconds (process running for 16.47)
+2024-10-02 00:31:32 [http-nio-8082-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 00:31:32 [http-nio-8082-exec-1] INFO  : Completed initialization in 0 ms
+2024-10-02 00:31:32 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-10-02 00:31:32 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-10-02 00:31:32 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-10-02 00:31:32 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-10-02 00:31:46 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 00:31:46 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 00:31:54 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 00:31:54 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 00:32:38 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 00:32:38 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 00:32:38 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 00:32:38 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 00:32:49 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 00:32:49 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 00:33:08 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:08 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 00:33:21 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=Approved, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:21 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-10-02 00:33:37 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=Denied, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:37 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-10-02 00:33:42 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Closed, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:42 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-10-02 00:33:44 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:44 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 00:33:53 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Approved, planStartDate=2024-10-03, planEndDate=null)]
+2024-10-02 00:33:53 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 00:34:04 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generateExcel() Arguments: [org.apache.catalina.connector.ResponseFacade@166eddb6]
+2024-10-02 00:34:05 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : generateExcel() Response: null
+2024-10-02 00:34:45 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@8d4ddb0]
+2024-10-02 00:34:46 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-10-02 01:33:02 [File Watcher] INFO  : Restarting due to 18 class path changes (0 additions, 6 deletions, 12 modifications)
+2024-10-02 01:33:02 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:33:02 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 01:33:02 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2024-10-02 01:33:13 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 10536 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2)
+2024-10-02 01:33:13 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 01:33:14 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 01:33:15 [restartedMain] INFO  : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2024-10-02 01:33:15 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-10-02 01:33:15 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2109 ms
+2024-10-02 01:33:15 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 01:33:15 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 01:33:15 [restartedMain] INFO  : HikariPool-2 - Starting...
+2024-10-02 01:33:15 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32e87c98
+2024-10-02 01:33:15 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2024-10-02 01:33:15 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 01:33:15 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 01:33:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 01:33:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 01:33:16 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 01:33:17 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 01:33:17 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-02 01:33:17 [restartedMain] INFO  : Started Mini2Application in 4.167 seconds (process running for 3745.601)
+2024-10-02 01:33:17 [restartedMain] INFO  : Condition evaluation unchanged
+2024-10-02 01:34:33 [http-nio-8082-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 01:34:33 [http-nio-8082-exec-1] INFO  : Completed initialization in 3 ms
+2024-10-02 01:34:33 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-10-02 01:34:33 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-10-02 01:34:33 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-10-02 01:34:33 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-10-02 01:34:36 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 01:34:36 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 01:34:41 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-10-02 01:34:41 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-10-02 01:34:41 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-10-02 01:34:41 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-10-02 01:34:43 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 01:34:43 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 02:21:00 [RMI TCP Connection(132)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 02:21:00 [RMI TCP Connection(132)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 02:21:00 [RMI TCP Connection(132)-127.0.0.1] INFO  : HikariPool-2 - Shutdown initiated...
+2024-10-02 02:21:00 [RMI TCP Connection(132)-127.0.0.1] INFO  : HikariPool-2 - Shutdown completed.
+2024-10-02 11:46:12 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 9732 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2)
+2024-10-02 11:46:12 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 11:46:12 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 11:46:12 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 11:46:14 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 11:46:14 [restartedMain] INFO  : Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-10-02 11:46:16 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-10-02 11:46:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4404 ms
+2024-10-02 11:46:17 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 11:46:17 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 11:46:17 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 11:46:18 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 11:46:18 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 11:46:18 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@222fd48c
+2024-10-02 11:46:18 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 11:46:18 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 11:46:18 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 11:46:20 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 11:46:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:46:21 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-02 11:46:23 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 11:46:24 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 11:46:24 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-02 11:46:24 [restartedMain] INFO  : Started Mini2Application in 13.99 seconds (process running for 16.148)
+2024-10-02 11:47:08 [RMI TCP Connection(8)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 11:47:08 [RMI TCP Connection(8)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:47:08 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 11:47:08 [RMI TCP Connection(8)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2024-10-02 11:48:59 [restartedMain] INFO  : Starting Mini2Application using Java 17.0.10 with PID 9824 (C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2\target\classes started by vanap in C:\Users\vanap\OneDrive\Desktop\His_Project\HIS-Project\BackEnd\mini-2)
+2024-10-02 11:48:59 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-02 11:48:59 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02 11:48:59 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02 11:49:01 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02 11:49:01 [restartedMain] INFO  : Finished Spring Data repository scanning in 144 ms. Found 1 JPA repository interface.
+2024-10-02 11:49:03 [restartedMain] INFO  : Tomcat initialized with port(s): 8082 (http)
+2024-10-02 11:49:03 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4348 ms
+2024-10-02 11:49:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02 11:49:04 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-10-02 11:49:04 [restartedMain] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-02 11:49:04 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02 11:49:05 [restartedMain] INFO  : HikariPool-1 - Starting...
+2024-10-02 11:49:05 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e3d1f0d
+2024-10-02 11:49:05 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2024-10-02 11:49:05 [restartedMain] WARN  : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-02 11:49:05 [restartedMain] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-02 11:49:08 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02 11:49:08 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 11:49:09 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-02 11:49:10 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02 11:49:12 [restartedMain] WARN  : Unable to start LiveReload server
+2024-10-02 11:49:12 [restartedMain] INFO  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-02 11:49:12 [restartedMain] INFO  : Started Mini2Application in 15.253 seconds (process running for 17.111)
+2024-10-02 12:06:11 [http-nio-8082-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-02 12:06:11 [http-nio-8082-exec-1] INFO  : Completed initialization in 3 ms
+2024-10-02 12:06:11 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-10-02 12:06:11 [http-nio-8082-exec-2] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-10-02 12:06:11 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-10-02 12:06:11 [http-nio-8082-exec-2] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-10-02 12:06:15 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:16 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 12:06:30 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Approved, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:30 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 12:06:33 [http-nio-8082-exec-6] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=Denied, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:33 [http-nio-8082-exec-6] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-10-02 12:06:39 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=Denied, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:39 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: []
+2024-10-02 12:06:42 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=Medical, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:42 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 12:06:45 [http-nio-8082-exec-9] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 12:06:45 [http-nio-8082-exec-9] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 13:25:39 [http-nio-8082-exec-10] INFO  : Init duration for springdoc-openapi is: 705 ms
+2024-10-02 13:29:21 [http-nio-8082-exec-5] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanName() Arguments: []
+2024-10-02 13:29:21 [http-nio-8082-exec-7] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:getUniquePlanStatus() Arguments: []
+2024-10-02 13:29:21 [http-nio-8082-exec-5] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanName() Response: [SNAP, CCAP, Medical]
+2024-10-02 13:29:21 [http-nio-8082-exec-7] INFO  : class com.mini2.service.ReportsServiceImpl : getUniquePlanStatus() Response: [Approved, Denied, Closed]
+2024-10-02 13:29:28 [http-nio-8082-exec-8] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=SNAP, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 13:29:28 [http-nio-8082-exec-8] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333)]
+2024-10-02 13:29:43 [http-nio-8082-exec-10] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=CCAP, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 13:29:43 [http-nio-8082-exec-10] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612)]
+2024-10-02 13:29:48 [http-nio-8082-exec-3] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:search() Arguments: [ReportRequest(planName=, status=, planStartDate=null, planEndDate=null)]
+2024-10-02 13:29:48 [http-nio-8082-exec-3] INFO  : class com.mini2.service.ReportsServiceImpl : search() Response: [ReportResponse(eligibleId=1, Name=Jhon, mobileNumber=8967236473, email=Jhone123@gmail.com, gender=Male, ssn=76446333), ReportResponse(eligibleId=2, Name=Smith, mobileNumber=9387936213, email=Smith23@gmail.com, gender=Male, ssn=8973612), ReportResponse(eligibleId=3, Name=Robert, mobileNumber=7856324587, email=Robert34@gmail.com, gender=Male, ssn=98456732)]
+2024-10-02 13:29:53 [http-nio-8082-exec-1] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generateExcel() Arguments: [org.apache.catalina.connector.ResponseFacade@4a61ce26]
+2024-10-02 13:29:53 [http-nio-8082-exec-1] INFO  : class com.mini2.service.ReportsServiceImpl : generateExcel() Response: null
+2024-10-02 13:30:23 [http-nio-8082-exec-4] INFO  : Method invoked: class com.mini2.service.ReportsServiceImpl:generatedPdf() Arguments: [org.apache.catalina.connector.ResponseFacade@1c2ae641]
+2024-10-02 13:30:23 [http-nio-8082-exec-4] INFO  : class com.mini2.service.ReportsServiceImpl : generatedPdf() Response: null
+2024-10-02 16:58:36 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s661ms647µs700ns).
+2024-10-02 18:29:27 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m54s221ms150µs300ns).
+2024-10-02 18:29:30 [RMI TCP Connection(164)-127.0.0.1] INFO  : Application shutdown requested.
+2024-10-02 18:29:31 [RMI TCP Connection(164)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02 18:29:31 [RMI TCP Connection(164)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2024-10-02 18:29:31 [RMI TCP Connection(164)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

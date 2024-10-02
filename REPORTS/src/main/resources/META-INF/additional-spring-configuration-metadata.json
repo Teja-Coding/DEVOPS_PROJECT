@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "spring.logging.file",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.logging.file'"
+  },
+  {
+    "name": "spring.logging.pattern.console",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.logging.pattern.console'"
+  },
+  {
+    "name": "spring.logging.level.com.mini1.controller",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.logging.level.com.mini1.controller'"
+  },
+  {
+    "name": "springdoc.swagger-ui.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.path'"
+  },
+  {
+    "name": "spring.logging.file",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.logging.file'"
+  }
+]}
